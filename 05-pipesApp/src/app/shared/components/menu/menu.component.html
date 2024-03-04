@@ -1,1 +1,6 @@
-<p-menu [model]="menuItems"></p-menu>
+<p-menubar [model]="menuItems">
+      <img src="./favicon.ico" alt="Icono" />
+  <ng-template pTemplate="end">
+      <input type="text" pInputText placeholder="Search" class="w-full" />
+  </ng-template>
+</p-menubar>
